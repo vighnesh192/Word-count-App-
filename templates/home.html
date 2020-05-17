@@ -1,0 +1,7 @@
+<h1>Word Count App</h1> <span><a href="{% url 'about' %}">ABOUT</a></span>
+
+<form action="{% url 'count' %}">
+    <textarea cols="40" rows="5" name="fulltext" placeholder="Enter you text..."></textarea>
+    <br />
+    <input type="submit" value="Count" />
+</form>
